@@ -1,0 +1,6 @@
+//this tell docker that what file need to ignore while building the application 
+
+node_modules
+npm-debug.log
+Dockerfile
+.dockerignore

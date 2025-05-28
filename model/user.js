@@ -10,7 +10,7 @@ const userSchema = new mongoose.Schema({
         type:Number,
         required:true
     }
-})
+},{timestamps:true})
 
 
 const userModel= mongoose.model('User',userSchema)
