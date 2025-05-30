@@ -11,6 +11,7 @@ const typeDefs=gql`
         age:Int
     }
 
+    # this is for updating the user mutaion is for perfoming th updation thing
     type Mutation {
          createUser(name:String!,age:Int!):User!
     }
