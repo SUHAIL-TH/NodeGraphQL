@@ -1,5 +1,5 @@
 const  {gql}=require("apollo-server-express")
-
+// this is used to declear the type definiton for graphal
 const typeDefs=gql`
  
     type Query  {
