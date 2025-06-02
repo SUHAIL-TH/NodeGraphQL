@@ -13,9 +13,9 @@ const typeDefs=gql`
 
     # this is for updating the user mutaion is for perfoming th updation thing
     type Mutation {
-         createUser(name:String!,age:Int!):User!
-         updateUser(id:ID,name:String,age:Int!):User!
-         deleteUser(id:ID!):User!
+         createUser(name:String!,age:Int!):User! #create user functionlity
+         updateUser(id:ID,name:String,age:Int!):User! #update schema functionality
+         deleteUser(id:ID!):User! #this is for delete user schema functionality
     }
 `
 
