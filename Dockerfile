@@ -1,3 +1,7 @@
+#this is for dockerizing the application 
+
+
+
 
 #use an official Node js base image
 
