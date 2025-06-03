@@ -1,3 +1,4 @@
+//this is the mongodb schema for user schema 
 const mongoose=require("mongoose")
 
 
@@ -14,6 +15,6 @@ const userSchema = new mongoose.Schema({
 
 
 const userModel= mongoose.model('User',userSchema)
-
+//export the usermodel 
 module.exports=userModel
 
