@@ -20,3 +20,9 @@ const typeDefs=gql`
 `
 
 module.exports =typeDefs
+
+
+
+// lambda function 
+// solid principles
+// decorator
