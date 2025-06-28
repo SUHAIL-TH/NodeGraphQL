@@ -1,2 +1,3 @@
+//git ignore file for ignoring th eenv and nodemodules
 .env
 node_modules
