@@ -1,4 +1,5 @@
 //this is the mongodb schema for user schema 
+schema for mongodb
 const mongoose=require("mongoose")
 
 
